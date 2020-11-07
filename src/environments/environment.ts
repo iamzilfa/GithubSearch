@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiUrl:"https://api.github.com/users/iamzilfa?access_token=2a23b3e4dc095aa8d13e4aad2134f9b536ad325f"
+  apiUrl:"2a23b3e4dc095aa8d13e4aad2134f9b536ad325f"
 };
 
 /*
