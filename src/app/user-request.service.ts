@@ -14,7 +14,7 @@ export class UserRequestService {
     this.user = new User("","","",0);
   }
 
-  quoteRequest(){
+  userRequest(){
     interface ApiResponse{
       avatar_url:string;
       name:string;
