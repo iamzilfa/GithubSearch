@@ -1,7 +1,9 @@
-<div class="container">
-    <form>
-        <input class="form-control" type="text" placeholder="Enter github username" name="loginName"
-            [(ngModel)]="loginName">
+<div class="contain">
+    <form class="form-inline">
+        <div class="form-group">
+            <input class="form-control" type="text" placeholder="Enter github username" name="loginName"
+                [(ngModel)]="loginName">
+        </div>
         <button class="btn btn-outline-primary" (click)="submitUser()"><i class="fa fa-search"
                 aria-hidden="true"></i>Search</button>
     </form>
@@ -18,8 +20,9 @@
             <p appStrikethrough>Followers: {{user.followers}}</p>
             <p appStrikethrough>Following: {{user.following}}</p>
             <p appStrikethrough>Created_at: {{user.created_at | date}}</p>
-           <p><a href="{{user.html_url}}"><button class="btn-outline-success btn btn-sm"><i class="fa fa-github" style="font-size:20px"></i> &nbsp; <span id="profile">Github</span> </button></a>
-            
+            <p><a href="{{user.html_url}}"><button class="btn-outline-success btn btn-sm"><i class="fa fa-github"
+                            style="font-size:20px"></i> &nbsp; <span id="profile">Github</span> </button></a>
+
         </div>
     </div>
 </div>
