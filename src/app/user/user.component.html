@@ -1,6 +1,21 @@
-<p>{{user.avatar_url}}</p>
-<p>{{user.name}}</p>
-<p>{{user.login}}</p>
-<p>{{user.public_repos}}</p>
 
-
+<div class="container">
+    <form>
+        <input class="form-control" type="text" placeholder="Enter github username" name="loginName"
+            [(ngModel)]="loginName">
+        <button class="btn btn-outline-primary" (click)="submitUser()"><i class="fa fa-search"
+                aria-hidden="true"></i>Search</button>
+    </form>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <img src="{{user.avatar_url}}" alt="">
+        </div>
+        <div class="col">
+            <p>Name: {{user.name}}</p>
+            <p>Username: {{user.login}}</p>
+            <p>Repositories: {{user.public_repos}}</p>
+        </div>
+    </div>
+</div>

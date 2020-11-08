@@ -1,1 +1,13 @@
-<p>repository works!</p>
+<div class="container">
+    <form>
+        <input class="form-control" type="text" placeholder="Enter github username" name="allRepo"
+            [(ngModel)]="allRepo">
+        <button class="btn btn-outline-primary" (click)="submitRepos()"><i class="fa fa-search"
+                aria-hidden="true"></i>Search</button>
+    </form>
+</div>
+
+<p>Name: {{repository.name}}</p>
+<p>Description: {{repository.description}}</p>
+<p>Language: {{repository.language}}</p>
+<p>html_url:{{repository.html_url}}</p>
