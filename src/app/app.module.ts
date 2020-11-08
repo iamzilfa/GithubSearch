@@ -11,6 +11,8 @@ import { UserComponent } from './user/user.component';
 import { RepositoryComponent } from './repository/repository.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { StrikethroughDirective } from './strikethrough.directive';
+import { DateCountPipe } from './date-count.pipe';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
     RepositoryComponent,
     NavbarComponent,
     NotFoundComponent,
+    StrikethroughDirective,
+    DateCountPipe,
   
   ],
   imports: [
