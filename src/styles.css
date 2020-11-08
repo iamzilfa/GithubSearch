@@ -1,2 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
+
+.form-control{
+    width: 500px;
+    margin-top: 50px;
+}
+
