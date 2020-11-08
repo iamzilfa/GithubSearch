@@ -1,5 +1,6 @@
 img {
     width: 300px;
+    border-radius: 300px;
 }
 
 
@@ -8,4 +9,11 @@ img {
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left:130px;
+}
+
+.btn{
+    border: none;
+    margin-left: -2px;
+    height: 38px;
+    border-radius: 5px;
 }

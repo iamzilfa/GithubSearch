@@ -4,7 +4,7 @@
             <input class="form-control" type="text" placeholder="Enter github username" name="loginName"
                 [(ngModel)]="loginName">
         </div>
-        <button class="btn btn-outline-primary" (click)="submitUser()"><i class="fa fa-search"
+        <button class="btn btn-primary" (click)="submitUser()"><i class="fa fa-search"
                 aria-hidden="true"></i>Search</button>
     </form>
 </div>
@@ -14,12 +14,12 @@
             <img src="{{user.avatar_url}}" alt="">
         </div>
         <div class="col">
-            <p appStrikethrough>Name: {{user.name}}</p>
-            <p appStrikethrough>Username: {{user.login}}</p>
-            <p appStrikethrough>Repositories: {{user.public_repos}}</p>
-            <p appStrikethrough>Followers: {{user.followers}}</p>
-            <p appStrikethrough>Following: {{user.following}}</p>
-            <p appStrikethrough>Created_at: {{user.created_at | date}}</p>
+            <p appStrikethrough><b>Name</b>: {{user.name}}</p>
+            <p appStrikethrough><b>Username</b>: {{user.login}}</p>
+            <p appStrikethrough><b>Repositories</b>: {{user.public_repos}}</p>
+            <p appStrikethrough><b>Followers</b>: {{user.followers}}</p>
+            <p appStrikethrough><b>Following</b>: {{user.following}}</p>
+            <p appStrikethrough><b>Created_at</b>: {{user.created_at | date}}</p>
             <p><a href="{{user.html_url}}"><button class="btn-outline-success btn btn-sm"><i class="fa fa-github"
                             style="font-size:20px"></i> &nbsp; <span id="profile">Github</span> </button></a>
 
