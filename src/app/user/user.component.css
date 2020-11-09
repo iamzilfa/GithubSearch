@@ -4,7 +4,7 @@ img {
 }
 
 .form-control {
-    width: 450px;
+    width: 400px;
     /* margin-top: 50px; */
     /* margin-bottom: 50px; */
     margin-left: 500px;
@@ -28,4 +28,12 @@ input[type=text]::placeholder{
 
 input{
     height: 35px;
+}
+
+#hey{
+    margin-top: 30px;
+}
+
+#gith{
+    margin-top: 20px;
 }
