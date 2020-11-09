@@ -1,3 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import "~bootstrap/dist/css/bootstrap.css";
+body {
+    background-image: url(https://res.cloudinary.com/zilfa/image/upload/v1604885413/federico-respini-sYffw0LNr7s-unsplash_d1w2p7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

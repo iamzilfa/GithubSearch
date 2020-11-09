@@ -1,8 +1,9 @@
 .form-control {
-    width: 800px;
+    width: 450px;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 130px;
+    margin-left: 500px;
+    background-color: transparent;
 }
 
 .btn {
@@ -10,4 +11,12 @@
     margin-left: -2px;
     height: 38px;
     border-radius: 5px;
+}
+
+.rep{
+    margin: 20px 0;
+}
+
+input[type=text]::placeholder{
+    color:white;
 }

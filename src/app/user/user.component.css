@@ -1,18 +1,31 @@
 img {
-    width: 180px;
+    width: 200px;
     border-radius: 30px;
 }
 
 .form-control {
-    width: 800px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 130px;
+    width: 450px;
+    /* margin-top: 50px; */
+    /* margin-bottom: 50px; */
+    margin-left: 500px;
+    background-color: transparent;
 }
 
 .btn {
-    border: none;
-    margin-left: -2px;
-    height: 38px;
-    border-radius: 5px;
+
+    margin-left: -3px;
+    height: 35px;
+    /* border-radius: 5px; */
+}
+
+.pic{
+    margin-top: 20px;
+}
+
+input[type=text]::placeholder{
+    color:white;
+}
+
+input{
+    height: 35px;
 }
