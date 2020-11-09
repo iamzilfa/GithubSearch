@@ -23,7 +23,7 @@ import { DateCountPipe } from './date-count.pipe';
     NotFoundComponent,
     StrikethroughDirective,
     DateCountPipe,
-  
+
   ],
   imports: [
     BrowserModule,

@@ -3,15 +3,14 @@ img {
     border-radius: 30px;
 }
 
-
-.form-control{
+.form-control {
     width: 800px;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left:130px;
+    margin-left: 130px;
 }
 
-.btn{
+.btn {
     border: none;
     margin-left: -2px;
     height: 38px;

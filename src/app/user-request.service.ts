@@ -11,7 +11,7 @@ export class UserRequestService {
   repository: Repository
 
   constructor(private http: HttpClient) {
-    this.user = new User("", "", "","", 0,0,0,new Date,"");
+    this.user = new User("", "", "", "", 0, 0, 0, new Date, "");
     this.repository = new Repository("", "", "", "")
   }
   userRequest(loginName) {
@@ -23,11 +23,11 @@ export class UserRequestService {
       name: string;
       login: string;
       public_repos: number;
-      followers:number;
-      following:number;
-      created_at:Date;
-      html_url:string;
-      type:string;
+      followers: number;
+      following: number;
+      created_at: Date;
+      html_url: string;
+      type: string;
 
     }
     let promise = new Promise((resolve, reject) => {
@@ -39,7 +39,7 @@ export class UserRequestService {
         this.user.followers = response.followers
         this.user.following = response.following
         this.user.created_at = response.created_at
-        this.user. html_url = response. html_url
+        this.user.html_url = response.html_url
         this.user.type = response.type
 
         resolve()
