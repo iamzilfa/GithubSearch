@@ -30,7 +30,7 @@ An app for searching a user's info and his/her repositories based on github user
 ## Support and contact details
 If anyone need support concerning my project or anything related, just reach out to zilcyam@gmail.com
  
-<!-- [Here is the link](https://iamzilfa.github.io/Quotes/ "Github") -->
+[Here is the link](https://iamzilfa.github.io/GithubSearch/ "Github")
 
 
 ### License
