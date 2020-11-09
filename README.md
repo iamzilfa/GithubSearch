@@ -20,9 +20,6 @@ An app for searching a user's info and his/her repositories based on github user
 * A user can search for users on git-hub based on their usernames.
 * A user can search for repositories on git-hub based on their authoers name.
 
-
-
-
 ## Technologies Used
 * HTML5
 * CSS3
@@ -33,7 +30,7 @@ An app for searching a user's info and his/her repositories based on github user
 ## Support and contact details
 If anyone need support concerning my project or anything related, just reach out to zilcyam@gmail.com
  
-<!-- [Here is the link](https://iamzilfa.github.io/Quotes/ "QUOTES") -->
+<!-- [Here is the link](https://iamzilfa.github.io/Quotes/ "Github") -->
 
 
 ### License

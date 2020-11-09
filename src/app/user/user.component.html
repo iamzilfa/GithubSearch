@@ -4,20 +4,22 @@
             <img src="{{user.avatar_url}}" alt="">
         </div>
         <div class="col">
-            <p appStrikethrough><b style="font-family: 'Times New Roman', Times, serif;">Name</b>: {{user.name}}</p>
-            <p appStrikethrough><b style="font-family: 'Times New Roman', Times, serif;">Username</b>: {{user.login}}
+            <p appStrikethrough><b style="font-family: 'Times New Roman', Times, serif;">Name</b>: <span style="color: white;font-family: 'Kaushan Script', cursive;font-size: 20px;">{{user.name}}</span></p>
+            <p appStrikethrough><b style="font-family: 'Times New Roman', Times, serif">Username</b>: <span style="color: white;font-family: 'Kaushan Script', cursive;font-size: 20px;">{{user.login}}</span>
           
             </p>
-            <p><a href="{{user.html_url}}"><button class="btn-outline-warning btn btn-sm"><i class="fa fa-github"
-                            style="font-size:20px"></i> &nbsp; <span id="profile">Github Repo</span> </button></a>
+            <p><a href="{{user.html_url}}"><button class="btn-primary btn btn-sm"><i class="fas fa-eye"
+                            style="font-size:20px"></i> &nbsp; <span style="font-weight: bold;">View Repos</span></button></a>
         </div>
         <div class="col">
             <p appStrikethrough><b style="font-family: 'Times New Roman', Times, serif;">Repositories</b>:
-                {{user.public_repos}}</p>
+               <span style="color: white;font-family: 'Kaushan Script', cursive;font-size: 20px;">{{user.public_repos}} </span></p>
             <p appStrikethrough><b style="font-family: 'Times New Roman', Times, serif;">Followers</b>:
-                {{user.followers}}</p>
+                <span style="color: white;font-weight: bold;font-family: 'Kaushan Script', cursive;font-size: 20px;">{{user.followers}}</span></p>
             <p appStrikethrough><b style="font-family: 'Times New Roman', Times, serif;">Following</b>:
-                {{user.following}}</p>
+                <span style="color: white;font-weight: bold;font-family: 'Kaushan Script', cursive;font-size: 20px;">{{user.following}}</span></p>
+                <p appStrikethrough><b style="font-family: 'Times New Roman', Times, serif;">Year</b>:
+                    <span style="color: white;font-weight: bold;font-family: 'Kaushan Script', cursive;font-size: 20px;">{{user.created_at | year}}</span></p>
             
         </div>
     </div>
@@ -25,10 +27,10 @@
 <div class="contain">
     <form class="form-inline">
         <div class="form-group">
-            <input class="form-control" type="text" placeholder="Enter github username" name="loginName"
+            <input class="form-control" type="text" style="font-family: 'Kaushan Script', cursive;" placeholder="Enter github username" name="loginName"
                 [(ngModel)]="loginName">
         </div>
-        <button class="btn btn-primary" (click)="submitUser()"><i class="fa fa-search"
-                aria-hidden="true"></i>Search</button>
+        <button class="btn btn-primary" (click)="submitUser()"><i class="fa fa-search" 
+                aria-hidden="true" ></i> &nbsp; Search</button>
     </form>
 </div>
