@@ -14,14 +14,23 @@
             <img src="{{user.avatar_url}}" alt="">
         </div>
         <div class="col">
-            <p appStrikethrough><b>Name</b>: {{user.name}}</p>
-            <p appStrikethrough><b>Username</b>: {{user.login}}</p>
-            <p appStrikethrough><b>Repositories</b>: {{user.public_repos}}</p>
-            <p appStrikethrough><b>Followers</b>: {{user.followers}}</p>
-            <p appStrikethrough><b>Following</b>: {{user.following}}</p>
-            <p appStrikethrough><b>Created_at</b>: {{user.created_at | date}}</p>
-            <p><a href="{{user.html_url}}"><button class="btn-outline-success btn btn-sm"><i class="fa fa-github"
+            <p appStrikethrough><b style="font-family: 'Times New Roman', Times, serif;">Name</b>: {{user.name}}</p>
+            <p appStrikethrough><b style="font-family: 'Times New Roman', Times, serif;">Username</b>: {{user.login}}
+                <p appStrikethrough><b style="font-family: 'Times New Roman', Times, serif;">Type</b>: {{user.type}}
+            </p>
+            <p><a href="{{user.html_url}}"><button class="btn-primary btn btn-sm"><i class="fa fa-github"
                             style="font-size:20px"></i> &nbsp; <span id="profile">Github</span> </button></a>
+        </div>
+        <div class="col">
+            <p appStrikethrough><b style="font-family: 'Times New Roman', Times, serif;">Repositories</b>:
+                {{user.public_repos}}</p>
+            <p appStrikethrough><b style="font-family: 'Times New Roman', Times, serif;">Followers</b>:
+                {{user.followers}}</p>
+            <p appStrikethrough><b style="font-family: 'Times New Roman', Times, serif;">Following</b>:
+                {{user.following}}</p>
+            <p appStrikethrough><b style="font-family: 'Times New Roman', Times, serif;">Created_at</b>:
+                {{user.created_at | date}}</p>
+
 
         </div>
     </div>
